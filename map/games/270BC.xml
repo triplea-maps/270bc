@@ -2936,6 +2936,385 @@
         <!-- Map Name: also used for map utils when asked -->
         <property name="mapName" value="270bc" editable="false"/>
         <!-- notes appear in the notes menu in the main screen, format as html -->
-        <property name="notes" value="     &lt;html&gt;     &lt;body bgcolor=&quot;776644&quot; align=&quot;center&quot;&gt;     &lt;h1 style=&quot;font-size:250%;color:red&quot; &gt;270BC &lt;/h1&gt; &lt;br&gt; &lt;br&gt;     &lt;b&gt; Created by: Doctor Che &lt;/b&gt; &lt;br&gt;     &lt;br&gt;Make yourself an empire around the Mediterranean Ocean (the known world),      &lt;br&gt;in the era when Hellenes, Romans and Phoenicians ruled. Choose from a arsenal of      &lt;br&gt;legionaires, hoplites, onagers, cataphracts, triremes, warelephants and many more.      &lt;br&gt;Territory names are based on cities at the time given or      &lt;br&gt;take 500 years (not easy finding names for all).     &lt;br&gt;     &lt;br&gt;     &lt;table border=&quot;1&quot;bgcolor=&quot;444444&quot;&gt;     &lt;tr&gt;     &lt;th style=&quot;font-size:120%;color:red&quot;colspan=&quot;2&quot;&gt;Alliances&lt;/th&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;th bgcolor=&quot;DD0000&quot;&gt;RomanAlliance&lt;/th&gt;     &lt;th bgcolor=&quot;CCBBAA&quot;&gt;AntiRomanAlliance&lt;/th&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;td bgcolor=&quot;DD0000&quot;&gt;RomanRepublic&lt;/td&gt;     &lt;td bgcolor=&quot;CCBBAA&quot;&gt;Carthage&lt;/td&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;td bgcolor=&quot;DD0000&quot;&gt;GreekCityStates&lt;/td&gt;     &lt;td bgcolor=&quot;CCBBAA&quot;&gt;Macedonia&lt;/td&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;td bgcolor=&quot;DD0000&quot;&gt;Egypt&lt;/td&gt;     &lt;td bgcolor=&quot;CCBBAA&quot;&gt;Seleucid&lt;/td&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;td bgcolor=&quot;DD0000&quot;&gt;Parthia&lt;/td&gt;     &lt;td bgcolor=&quot;CCBBAA&quot;&gt;Numidia&lt;/td&gt;     &lt;/tr&gt;     &lt;/table&gt;     &lt;br&gt;     Unit size should be 87.5%.&lt;br&gt;     &lt;br&gt;     &lt;br&gt;     &lt;b&gt; Units Stat:&lt;/b&gt;&lt;br&gt;     &lt;br&gt;     &lt;table border=&quot;1&quot;bgcolor=&quot;7744AA&quot;&gt;     &lt;tr&gt;     &lt;th&gt;Unit name&lt;/th&gt;     &lt;th&gt;cost&lt;/th&gt;     &lt;th&gt;att&lt;/th&gt;     &lt;th&gt;def&lt;/th&gt;     &lt;th&gt;move&lt;/th&gt;     &lt;th&gt;tCost &lt;/th&gt;     &lt;th&gt;tCap&lt;/th&gt;     &lt;th&gt;artSup&lt;/th&gt;     &lt;th&gt;art&lt;/th&gt;     &lt;th&gt;blitz&lt;/th&gt;     &lt;th&gt;2Hit&lt;/th&gt;     &lt;th&gt;notes&lt;/th&gt;     &lt;/tr&gt;     &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;archer&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;td&gt;axeman&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;     &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;ballista&lt;/td&gt;     &lt;td&gt;5&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;barbarian&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;bireme&lt;/td&gt;     &lt;td&gt;7&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;cataphract&lt;/td&gt;     &lt;td&gt;7&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;     &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;cavalry&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;chariot&lt;/td&gt;     &lt;td&gt;6&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;city&lt;/td&gt;     &lt;td&gt;15&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;factory&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;fort&lt;/td&gt;     &lt;td&gt;6&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;0&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;normal placement with city, &lt;br&gt;1 per territory per turn with legionaire&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;hoplite&lt;/td&gt;     &lt;td&gt;5&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;horsearcher&lt;/td&gt;     &lt;td&gt;6&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;legionaire&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;onager&lt;/td&gt;     &lt;td&gt;7&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;peltasts&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr&gt;     &lt;td&gt;slingers&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;spearman&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;       &lt;tr&gt;     &lt;td&gt;swordman&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;      &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;trireme&lt;/td&gt;     &lt;td&gt;12&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;6&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;       &lt;tr&gt;     &lt;td&gt;velites&lt;/td&gt;     &lt;td&gt;3&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;/tr&gt;     &lt;tr bgcolor=&quot;77AA11&quot;&gt;     &lt;td&gt;warelephant&lt;/td&gt;     &lt;td&gt;14&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;2&lt;/td&gt;     &lt;td&gt;1&lt;/td&gt;     &lt;td&gt;4&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;&lt;/td&gt;     &lt;td&gt;true&lt;/td&gt;     &lt;td&gt;provides +1/+1 to up to 2 other units&lt;/td&gt;     &lt;/tr&gt;     &lt;tr&gt;     &lt;th&gt;Unit name&lt;/th&gt;     &lt;th&gt;cost&lt;/th&gt;     &lt;th&gt;att&lt;/th&gt;     &lt;th&gt;def&lt;/th&gt;     &lt;th&gt;move&lt;/th&gt;     &lt;th&gt;tCost &lt;/th&gt;     &lt;th&gt;tCap&lt;/th&gt;     &lt;th&gt;artSup&lt;/th&gt;     &lt;th&gt;art&lt;/th&gt;     &lt;th&gt;blitz&lt;/th&gt;     &lt;th&gt;2Hit&lt;/th&gt;     &lt;th&gt;notes&lt;/th&gt;     &lt;/tr&gt;     &lt;/table&gt;     &lt;br&gt;     &lt;br&gt;     For more Triplea maps visit this website&lt;br&gt;     http://gormeirik.googlepages.com/tripleamaps     &lt;br&gt;     &lt;br&gt;Modified by Veqryn and Cernel.     &lt;br&gt;Map Reliefs and Sounds by Hepster and Veqryn.     &lt;br&gt;     &lt;/html&gt;      "/>
+        <property name="notes">
+            <string/>
+            <value>
+                <![CDATA[
+<html>
+    <body bgcolor="776644" align="center">
+        <h1 style="font-size:250%;color:red" >270BC </h1>
+        <br/>
+        <br/>
+        <b> Created by: Doctor Che </b>
+        <br/>
+        <br/>Make yourself an empire around the Mediterranean Ocean (the known world),      
+        <br/>in the era when Hellenes, Romans and Phoenicians ruled. Choose from a arsenal of      
+        <br/>legionaires, hoplites, onagers, cataphracts, triremes, warelephants and many more.      
+        <br/>Territory names are based on cities at the time given or      
+        <br/>take 500 years (not easy finding names for all).     <br/>
+        <br/>
+        <table border="1"bgcolor="444444">
+            <tr>
+                <th style="font-size:120%;color:red"colspan="2">Alliances</th>
+            </tr>
+            <tr>
+                <th bgcolor="DD0000">RomanAlliance</th>
+                <th bgcolor="CCBBAA">AntiRomanAlliance</th>
+            </tr>
+            <tr>
+                <td bgcolor="DD0000">RomanRepublic</td>
+                <td bgcolor="CCBBAA">Carthage</td>
+            </tr>
+            <tr>
+                <td bgcolor="DD0000">GreekCityStates</td>
+                <td bgcolor="CCBBAA">Macedonia</td>
+            </tr>
+            <tr>
+                <td bgcolor="DD0000">Egypt</td>
+                <td bgcolor="CCBBAA">Seleucid</td>
+            </tr>
+            <tr>
+                <td bgcolor="DD0000">Parthia</td>
+                <td bgcolor="CCBBAA">Numidia</td>
+            </tr>
+        </table>
+        <br/>     Unit size should be 87.5%.<br/>
+        <br/>
+        <br/>
+        <b> Units Stat:</b>
+        <br/>
+        <br/>
+        <table border="1"bgcolor="7744AA">
+            <tr>
+                <th>Unit name</th>
+                <th>cost</th>
+                <th>att</th>
+                <th>def</th>
+                <th>move</th>
+                <th>tCost </th>
+                <th>tCap</th>
+                <th>artSup</th>
+                <th>art</th>
+                <th>blitz</th>
+                <th>2Hit</th>
+                <th>notes</th>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>archer</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>axeman</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>ballista</td>
+                <td>5</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>barbarian</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>bireme</td>
+                <td>7</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td/>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>cataphract</td>
+                <td>7</td>
+                <td>3</td>
+                <td>3</td>
+                <td>2</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td>true</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>cavalry</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>chariot</td>
+                <td>6</td>
+                <td>1</td>
+                <td>4</td>
+                <td>2</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td>true</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>city</td>
+                <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>factory</td>
+            </tr>
+            <tr>
+                <td>fort</td>
+                <td>6</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td>normal placement with city, <br/>1 per territory per turn with legionaire</td>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>hoplite</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>horsearcher</td>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>legionaire</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>onager</td>
+                <td>7</td>
+                <td>4</td>
+                <td>3</td>
+                <td>1</td>
+                <td>3</td>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>peltasts</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>slingers</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>spearman</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>swordman</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>trireme</td>
+                <td>12</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td/>
+                <td>6</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>velites</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td/>
+                <td>true</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr bgcolor="77AA11">
+                <td>warelephant</td>
+                <td>14</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>true</td>
+                <td>provides +1/+1 to up to 2 other units</td>
+            </tr>
+            <tr>
+                <th>Unit name</th>
+                <th>cost</th>
+                <th>att</th>
+                <th>def</th>
+                <th>move</th>
+                <th>tCost </th>
+                <th>tCap</th>
+                <th>artSup</th>
+                <th>art</th>
+                <th>blitz</th>
+                <th>2Hit</th>
+                <th>notes</th>
+            </tr>
+        </table>
+        <br/>
+        <br/>     For more Triplea maps visit this website<br/>     http://gormeirik.googlepages.com/tripleamaps     <br/>
+        <br/>Modified by Veqryn and Cernel.     <br/>Map Reliefs and Sounds by Hepster and Veqryn.     <br/>
+    </html>
+    
+				]]>
+            </value>
+        </property>
     </propertyList>
 </game>

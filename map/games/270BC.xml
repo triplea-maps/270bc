@@ -1109,7 +1109,7 @@
             <result resourceOrUnit="ballista" quantity="1"/>
         </productionRule>
         <productionRule name="buyBarbarian">
-            <cost resource="PUs" quantity="2"/>
+            <cost resource="PUs" quantity="5"/>
             <result resourceOrUnit="barbarian" quantity="1"/>
         </productionRule>
         <productionRule name="buyBireme">
@@ -1633,7 +1633,6 @@
             <option name="transportCost" value="2"/>
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
-            <!--<option name="artillerySupportable" value="true"/>-->
             <option name="requiresUnits" value="city"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="cataphract" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1763,10 +1762,6 @@
             <option name="attack" value="0"/>
             <option name="defense" value="4"/>
             <option name="hitPoints" value="2"/>
-            <!--<option name="isConstruction" value="true"/>
-						 <option name="constructionType" value="fort"/>
-						 <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
-						 <option name="maxConstructionsPerTypePerTerr" value="1"/>-->
             <option name="requiresUnits" value="city"/>
             <option name="requiresUnits" value="legionaire"/>
         </attachment>
@@ -2873,19 +2868,6 @@
         <property name="Low Luck" value="false" editable="true">
             <boolean/>
         </property>
-        <!-- 
-				<property name="More Constructions with Factory" value="true" editable="false">
-						<boolean/>
-				</property>
-				
-				<property name="More Constructions without Factory" value="true" editable="false">
-						<boolean/>
-				</property>
-
-				<property name="Unlimited Constructions" value="false" editable="true">
-						<boolean/>
-				</property>
-				-->
         <!-- Unit Placement Restrictions are restrictions on the placement of units: unitPlacementRestrictions, unitPlacementOnlyAllowedIn, canOnlyBePlacedInTerritoryValuedAtX, requiresUnits, -->
         <property name="Unit Placement Restrictions" value="true" editable="false">
             <boolean/>

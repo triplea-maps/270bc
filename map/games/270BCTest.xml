@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="270BC" version="1.7"/>
+    <info name="270 Test" version="1.7"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <map>
         <!-- Territory Definitions -->
@@ -1104,158 +1104,46 @@
             <cost resource="PUs" quantity="3"/>
             <result resourceOrUnit="axeman" quantity="1"/>
         </productionRule>
-        <productionRule name="buyBallista">
-            <cost resource="PUs" quantity="5"/>
-            <result resourceOrUnit="ballista" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyBarbarian">
-            <cost resource="PUs" quantity="5"/>
-            <result resourceOrUnit="barbarian" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyBireme">
-            <cost resource="PUs" quantity="7"/>
-            <result resourceOrUnit="bireme" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyCataphract">
-            <cost resource="PUs" quantity="7"/>
-            <result resourceOrUnit="cataphract" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyCavalry">
-            <cost resource="PUs" quantity="4"/>
-            <result resourceOrUnit="cavalry" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyChariot">
-            <cost resource="PUs" quantity="6"/>
-            <result resourceOrUnit="chariot" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyCity">
-            <cost resource="PUs" quantity="15"/>
-            <result resourceOrUnit="city" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyFort">
-            <cost resource="PUs" quantity="6"/>
-            <result resourceOrUnit="fort" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyHoplite">
-            <cost resource="PUs" quantity="5"/>
-            <result resourceOrUnit="hoplite" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyHorsearcher">
-            <cost resource="PUs" quantity="6"/>
-            <result resourceOrUnit="horsearcher" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyLegionaire">
-            <cost resource="PUs" quantity="4"/>
-            <result resourceOrUnit="legionaire" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyOnager">
-            <cost resource="PUs" quantity="7"/>
-            <result resourceOrUnit="onager" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyPeltasts">
-            <cost resource="PUs" quantity="2"/>
-            <result resourceOrUnit="peltasts" quantity="1"/>
-        </productionRule>
-        <productionRule name="buySlingers">
-            <cost resource="PUs" quantity="2"/>
-            <result resourceOrUnit="slingers" quantity="1"/>
-        </productionRule>
-        <productionRule name="buySpearman">
-            <cost resource="PUs" quantity="3"/>
-            <result resourceOrUnit="spearman" quantity="1"/>
-        </productionRule>
-        <productionRule name="buySwordman">
-            <cost resource="PUs" quantity="4"/>
-            <result resourceOrUnit="swordman" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyTrireme">
-            <cost resource="PUs" quantity="12"/>
-            <result resourceOrUnit="trireme" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyVelites">
-            <cost resource="PUs" quantity="3"/>
-            <result resourceOrUnit="velites" quantity="1"/>
-        </productionRule>
-        <productionRule name="buyWarelephant">
-            <cost resource="PUs" quantity="14"/>
-            <result resourceOrUnit="warelephant" quantity="1"/>
-        </productionRule>
+      
         <productionFrontier name="MacedoniaProduction">
             <frontierRules name="buyPeltasts"/>
             <frontierRules name="buySwordman"/>
-            <frontierRules name="buyHoplite"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+         
         </productionFrontier>
         <productionFrontier name="CarthageProduction">
             <frontierRules name="buySpearman"/>
             <frontierRules name="buySwordman"/>
-            <frontierRules name="buyHoplite"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyWarelephant"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+         
         </productionFrontier>
         <productionFrontier name="GreekCityStatesProduction">
             <frontierRules name="buySlingers"/>
             <frontierRules name="buyArcher"/>
-            <frontierRules name="buyHoplite"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+         
         </productionFrontier>
         <productionFrontier name="RomanRepublicProduction">
             <frontierRules name="buyVelites"/>
             <frontierRules name="buyLegionaire"/>
-            <frontierRules name="buyBallista"/>
-            <frontierRules name="buyOnager"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyFort"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+          
         </productionFrontier>
         <productionFrontier name="EgyptProduction">
             <frontierRules name="buySpearman"/>
             <frontierRules name="buyAxeman"/>
-            <frontierRules name="buyArcher"/>
-            <frontierRules name="buyChariot"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+           
         </productionFrontier>
         <productionFrontier name="SeleucidProduction">
             <frontierRules name="buyPeltasts"/>
             <frontierRules name="buyLegionaire"/>
-            <frontierRules name="buyHoplite"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyCataphract"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+         
         </productionFrontier>
         <productionFrontier name="ParthiaProduction">
             <frontierRules name="buySpearman"/>
             <frontierRules name="buyArcher"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyHorsearcher"/>
-            <frontierRules name="buyCataphract"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+          
         </productionFrontier>
         <productionFrontier name="NumidiaProduction">
             <frontierRules name="buySpearman"/>
             <frontierRules name="buyArcher"/>
-            <frontierRules name="buySwordman"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyBireme"/>
-            <frontierRules name="buyTrireme"/>
-            <frontierRules name="buyCity"/>
+          
         </productionFrontier>
         <playerProduction player="Macedonia" frontier="MacedoniaProduction"/>
         <playerProduction player="Carthage" frontier="CarthageProduction"/>
@@ -1271,159 +1159,62 @@
             <techname name="archer:"/>
             <techname name="axeman:"/>
             <techname name="ballista:"/>
-            <techname name="barbarian:"/>
-            <techname name="cataphract:"/>
-            <techname name="cavalry:"/>
-            <techname name="chariot:"/>
-            <techname name="fort:"/>
-            <techname name="hoplite:"/>
-            <techname name="horsearcher:"/>
-            <techname name="legionaire:"/>
-            <techname name="onager:"/>
-            <techname name="peltasts:"/>
-            <techname name="slingers:"/>
-            <techname name="spearman:"/>
-            <techname name="swordman:"/>
-            <techname name="velites:"/>
-            <techname name="warelephant:"/>
+         
         </technologies>
         <playerTech player="Carthage">
             <category name="Carthage Technology">
                 <tech name="archer:"/>
                 <tech name="axeman:"/>
-                <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="horsearcher:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="peltasts:"/>
-                <tech name="slingers:"/>
-                <tech name="velites:"/>
+               
             </category>
         </playerTech>
         <playerTech player="RomanRepublic">
             <category name="RomanRepublic Technology">
                 <tech name="archer:"/>
                 <tech name="axeman:"/>
-                <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="chariot:"/>
-                <tech name="hoplite:"/>
-                <tech name="horsearcher:"/>
-                <tech name="peltasts:"/>
-                <tech name="slingers:"/>
-                <tech name="spearman:"/>
-                <tech name="swordman:"/>
-                <tech name="warelephant:"/>
+            
             </category>
         </playerTech>
         <playerTech player="GreekCityStates">
             <category name="GreekCityStates Technology">
                 <tech name="axeman:"/>
                 <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="horsearcher:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="peltasts:"/>
-                <tech name="spearman:"/>
-                <tech name="swordman:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+          
             </category>
         </playerTech>
         <playerTech player="Macedonia">
             <category name="Macedonia Technology">
                 <tech name="archer:"/>
                 <tech name="axeman:"/>
-                <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="horsearcher:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="slingers:"/>
-                <tech name="spearman:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+              
             </category>
         </playerTech>
         <playerTech player="Egypt">
             <category name="Egypt Technology">
                 <tech name="ballista:"/>
                 <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="cavalry:"/>
-                <tech name="fort:"/>
-                <tech name="hoplite:"/>
-                <tech name="horsearcher:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="peltasts:"/>
-                <tech name="slingers:"/>
-                <tech name="swordman:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+             
             </category>
         </playerTech>
         <playerTech player="Seleucid">
             <category name="Seleucid Technology">
                 <tech name="archer:"/>
                 <tech name="axeman:"/>
-                <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="horsearcher:"/>
-                <tech name="onager:"/>
-                <tech name="slingers:"/>
-                <tech name="spearman:"/>
-                <tech name="swordman:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+             
             </category>
         </playerTech>
         <playerTech player="Parthia">
             <category name="Parthia Technology">
                 <tech name="axeman:"/>
                 <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="hoplite:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="peltasts:"/>
-                <tech name="slingers:"/>
-                <tech name="swordman:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+            
             </category>
         </playerTech>
         <playerTech player="Numidia">
             <category name="Numidia Technology">
                 <tech name="axeman:"/>
                 <tech name="ballista:"/>
-                <tech name="barbarian:"/>
-                <tech name="cataphract:"/>
-                <tech name="chariot:"/>
-                <tech name="fort:"/>
-                <tech name="hoplite:"/>
-                <tech name="horsearcher:"/>
-                <tech name="legionaire:"/>
-                <tech name="onager:"/>
-                <tech name="peltasts:"/>
-                <tech name="slingers:"/>
-                <tech name="velites:"/>
-                <tech name="warelephant:"/>
+             
             </category>
         </playerTech>
     </technology>
@@ -1620,151 +1411,7 @@
             <option name="artillerySupportable" value="true"/>
             <option name="requiresUnits" value="city"/>
         </attachment>
-        <attachment name="unitAttachment" attachTo="ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="3"/>
-            <option name="attack" value="4"/>
-            <option name="defense" value="0"/>
-            <option name="artillery" value="true"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="barbarian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="3"/>
-            <option name="defense" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="cataphract" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
-            <option name="canBlitz" value="true"/>
-            <option name="attack" value="3"/>
-            <option name="defense" value="3"/>
-            <option name="artillery" value="true"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
-            <option name="canBlitz" value="true"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="1"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="chariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
-            <option name="canBlitz" value="true"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="4"/>
-            <option name="artillery" value="true"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="hoplite" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="3"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="horsearcher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
-            <option name="canBlitz" value="true"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="3"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="legionaire" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="2"/>
-            <option name="artillerySupportable" value="true"/>
-            <option name="canProduceUnits" value="true"/>
-            <option name="canProduceXUnits" value="1"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="onager" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="3"/>
-            <option name="attack" value="4"/>
-            <option name="defense" value="3"/>
-            <option name="artillery" value="true"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="peltasts" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="1"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="slingers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="1"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="spearman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="swordman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="velites" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="2"/>
-            <option name="artillerySupportable" value="true"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="warelephant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="transportCost" value="4"/>
-            <option name="attack" value="2"/>
-            <option name="defense" value="2"/>
-            <option name="hitPoints" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="bireme" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="isSea" value="true"/>
-            <option name="transportCapacity" value="3"/>
-            <option name="attack" value="1"/>
-            <option name="defense" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="trireme" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="1"/>
-            <option name="isSea" value="true"/>
-            <option name="transportCapacity" value="6"/>
-            <option name="attack" value="3"/>
-            <option name="defense" value="2"/>
-            <option name="requiresUnits" value="city"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="city" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="isFactory" value="true"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="fort" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="0"/>
-            <option name="attack" value="0"/>
-            <option name="defense" value="4"/>
-            <option name="hitPoints" value="2"/>
-            <option name="requiresUnits" value="city"/>
-            <option name="requiresUnits" value="legionaire"/>
-        </attachment>
+     
         <!-- Territory Attachment -->
         <attachment name="territoryAttachment" attachTo="Sparta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
@@ -2272,17 +1919,7 @@
         <attachment name="territoryAttachment" attachTo="Augustoritum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
         </attachment>
-        <attachment name="supportAttachment_Warelephant" attachTo="warelephant" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-            <option name="unitType" value="archer:axeman:ballista:barbarian:cataphract:cavalry:chariot:hoplite:horsearcher:legionaire:onager:peltasts:slingers:spearman:swordman:velites"/>
-            <option name="faction" value="allied"/>
-            <option name="side" value="offence:defence"/>
-            <option name="dice" value="strength"/>
-            <option name="bonus" value="1"/>
-            <option name="number" value="2"/>
-            <option name="bonusType" value="elephant"/>
-            <option name="impArtTech" value="false"/>
-            <option name="players" value="Carthage:Seleucid:Macedonia:Numidia:RomanRepublic:GreekCityStates:Parthia:Egypt"/>
-        </attachment>
+      
         <attachment name="conditionAttachmentAntiRomanVictory8" attachTo="Carthage" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="gameProperty" value="8 Capital Victory"/>
             <option name="alliedOwnershipTerritories" value="Sparta:Thessalonica:Alexandria:Roma:Antioch:Carthago:Cirta:Persepolis" count="8"/>
@@ -2415,7 +2052,7 @@
         <unitInitialize>
             <!-- GreekCityStates Unit Placements -->
             <unitPlacement unitType="city" territory="Sparta" quantity="1" owner="GreekCityStates"/>
-            <unitPlacement unitType="hoplite" territory="Sparta" quantity="6" owner="GreekCityStates"/>
+            <unitPlacement unitType="hoplite" territory="Sparta" quantity="50" owner="GreekCityStates"/>
             <unitPlacement unitType="slingers" territory="Sparta" quantity="3" owner="GreekCityStates"/>
             <unitPlacement unitType="cavalry" territory="Athens" quantity="1" owner="GreekCityStates"/>
             <unitPlacement unitType="hoplite" territory="Athens" quantity="5" owner="GreekCityStates"/>
